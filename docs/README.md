@@ -2,14 +2,14 @@
 
 This directory contains comprehensive documentation for the TraderAgents-Simplified system.
 
-## 📋 Documentation Files
+## Documentation Files
 
-### 📖 User Documentation
+### User Documentation
 - **[README.md](../README.md)** - Main project documentation with installation, usage, and examples
 
-## 🚀 Quick Start
+## Quick Start
 
-## 📄 Documentation Content Overview
+## Documentation Content Overview
 
 ### README.md (Markdown Format)
 - ✅ System overview and architecture
@@ -20,7 +20,7 @@ This directory contains comprehensive documentation for the TraderAgents-Simplif
 - ✅ Contributing guidelines
 - ✅ Support and troubleshooting
 
-## 🎯 Target Audiences
+## Target Audiences
 
 ### README.md
 - **Developers** implementing or extending the system
@@ -28,7 +28,7 @@ This directory contains comprehensive documentation for the TraderAgents-Simplif
 - **Contributors** looking to contribute to the project
 - **Students** learning about multi-agent systems
 
-## 🔄 Maintenance
+## Maintenance
 
 To keep documentation current:
 
@@ -36,18 +36,18 @@ To keep documentation current:
 4. **Verify examples** still work with current codebase
 5. **Update references** as dependencies change
 
-## 📊 Documentation Metrics
+## Documentation Metrics
 
 | Document | Format | Pages | Target Audience |
 |----------|--------|-------|-----------------|
 | README.md | Markdown | ~15 screens | Developers, Users |
 
-## 🛠️ Tools and Dependencies
+## Tools and Dependencies
 
 ### Optional Tools
 - **VS Code** - With extensions for editing
 
-## 📞 Support
+## Support
 
 For documentation issues:
 1. Open an issue on the project repository
