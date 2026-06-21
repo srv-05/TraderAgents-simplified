@@ -4,20 +4,20 @@
 [![LangChain](https://img.shields.io/badge/LangChain-0.3-green.svg)](https://langchain.com/)
 [![Poetry](https://img.shields.io/badge/Poetry-dependency%20management-orange.svg)](https://python-poetry.org/)
 
-## 🌟 Overview
+## Overview
 
 **TraderAgents-Simplified** is an AI-powered multi-agent trading decision system that implements a comprehensive pipeline for stock analysis, research, and risk management. The system uses Large Language Models (LLMs) through a multi-stage workflow to analyze financial data, conduct debates between bullish and bearish perspectives, and make informed trading decisions with integrated risk assessment.
 
-### 🎯 Key Features
+### Key Features
 
-- 📊 **Multi-Modal Financial Analysis**: Technical, fundamental, news, and sentiment analysis
-- 🤖 **AI-Powered Research Teams**: Bullish vs Bearish researcher agents with debate coordination
-- 💼 **Automated Trading Decisions**: Trade proposal generation based on research outcomes
-- ⚖️ **Advanced Risk Management**: Multi-perspective risk assessment with aggressive, conservative, and neutral viewpoints
-- 🔄 **LangGraph Workflow**: Orchestrated agent interactions using state-of-the-art workflow management
-- 🌐 **Real-Time Data Integration**: Live market data via Yahoo Finance and Finnhub APIs
+- **Multi-Modal Financial Analysis**: Technical, fundamental, news, and sentiment analysis
+- **AI-Powered Research Teams**: Bullish vs Bearish researcher agents with debate coordination
+- **Automated Trading Decisions**: Trade proposal generation based on research outcomes
+- **Advanced Risk Management**: Multi-perspective risk assessment with aggressive, conservative, and neutral viewpoints
+- **LangGraph Workflow**: Orchestrated agent interactions using state-of-the-art workflow management
+- **Real-Time Data Integration**: Live market data via Yahoo Finance and Finnhub APIs
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a multi-stage pipeline architecture with three main teams:
 
@@ -45,7 +45,7 @@ graph TD
     E --> E5[Risk Coordinator]
 ```
 
-### 🔍 Pipeline Stages
+### Pipeline Stages
 
 #### 1. **Analyst Team** (`src/agents/analyst_team/`)
 - **Fundamentals Analyst**: Analyzes financial statements, ratios, and company metrics
@@ -70,7 +70,7 @@ graph TD
 - **Neutral Debater**: Provides balanced perspective
 - **Risk Coordinator**: Makes final risk-adjusted recommendations
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -122,7 +122,7 @@ poetry run python pipeline_tests/bullish_pipeline.py
 poetry run python pipeline_tests/researcher_trader_pipeline.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 TraderAgents-simplified/
@@ -141,7 +141,7 @@ TraderAgents-simplified/
 └── run.py                        # Abstracted Python code to run entire Pipeline.
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### LLM Configuration
 
@@ -170,7 +170,7 @@ state = {
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 The project includes comprehensive tests for all components:
 
@@ -186,13 +186,13 @@ poetry run python pipeline_tests/bearish_pipeline.py
 poetry run python pipeline_tests/full_researcher_pipeline.py
 ```
 
-## 📊 Data Sources
+## Data Sources
 
 - **Yahoo Finance**: Real-time stock prices and historical data
 - **Finnhub**: Financial news, company fundamentals, and market data
 - **Technical Indicators**: MACD, RSI, and other technical analysis metrics
 
-## 🤝 Usage Examples
+## Usage Examples
 
 ### Basic Stock Analysis
 
@@ -227,7 +227,7 @@ result = pipeline.invoke(state)
 final_decision = result.get("risk_debate_result")
 ```
 
-## ⚠️ Risk Disclaimer
+## Risk Disclaimer
 
 **Important**: This system is for educational and research purposes only. It should not be used as the sole basis for making real financial trading decisions. Always:
 
@@ -236,13 +236,13 @@ final_decision = result.get("risk_debate_result")
 - Be aware of the risks involved in trading and investing
 - Understand that past performance does not guarantee future results
 
-## 🤖 AI Models & APIs
+## AI Models & APIs
 
 - **Groq Llama3-8B-8192**: Primary language model for analysis and decision-making
 - **LangChain**: Framework for LLM orchestration and prompt management
 - **LangGraph**: State-based workflow management for agent coordination
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - [ ] Integration with real brokerage APIs for live trading
 - [ ] Advanced portfolio optimization algorithms
@@ -251,11 +251,11 @@ final_decision = result.get("risk_debate_result")
 - [ ] Web-based dashboard for visualization
 - [ ] Support for cryptocurrency and forex markets
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙋‍♂️ Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -265,7 +265,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🆘 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -274,7 +274,7 @@ If you encounter any issues or have questions:
 3. Ensure all API keys are properly configured
 4. Verify your Python and Poetry versions meet the requirements
 
-## 📚 References
+## References
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
